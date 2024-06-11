@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --cinza-principal:rgb(44, 44, 44);
+}
+
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+.container{
+    background-color: var(--cinza-principal);
+    height: 100vh;
+}
+
+.navegacao{
+    position: fixed;
+    width: 100%;
+}
+
+.cabecario{
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--cinza-principal);
+    
+}
+
+.cabecario-lista{
+    display: flex;
+    padding: 15px;
+    list-style: none;
+}
+
+.item-lista{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(215, 214, 216);
+    font-size: 13px;
+}
+
+a:hover{
+    color: #FCFCFC;
+}
+
+.logo{
+    width: 120px;
+    height: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.conteudo{
+    display: flex;
+   
+}
+
+.svg-imagem{
+    width: 20px;
+    fill: white;
+}
+
+.retangulo-cinza{
+    background-color: rgb(58, 58, 58);
+    width: 50px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.svg-icones{
+    margin-top: 18%;
+    padding: 20px;
+}
+
+.lista-icones{
+    list-style: none;
+}
+
+.item-icone{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card-info{
+    background-color: rgb(26,26,26);
+    width: 350px;
+    height: 500px;
+    margin-top: 7%;
+}
+
+.img-home{
+    width: 800px;
+    height: 500px;
+    margin-top: 7%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-family: inherit;
+}
+
+.descricao{
+   color: #585656;
+   font-size: 13px;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.btn{
+    background-color: rgb(255,220,37);
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    box-shadow:  rgb(255,220,37)0px 30px 60px -12px,  rgb(255,220,37) 0px 18px 36px -18px;
+}
+
+.btn:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    transition: 0.5s;
+    box-shadow:none;
+    transition: 1s;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 55px;
+}
+
+.img-about{
+   width: 500px; 
+   padding: 100px;
+   margin-left: 5%;
+}
+
+.about{
+    display: flex;
+    height: 100vh;
+}
+
+h2{
+    color: var(--cinza-principal);
+    margin-top: 25%;
+    font-size: 30px;
+}
+
+.motivos{
+    width: 30%;
+    margin-left: 10%; 
+}
+
+.desc-about{
+    color: #585656;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.lista-about{
+    list-style: none;
+}
+
+.item-about{
+    display: flex;
+    padding: 15px;
+}
+
+.titulo-about{
+    color: var(--cinza-principal);
+    margin-left: 3px;
+}
+
+.descricao-about{
+    font-size: 13px;
+}
+
+.btn-cota{
+    background-color: rgb(255,220,37);
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-about{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cadeira{
+    text-align: center;
+}
+
+.disign{
+    background-image: url(img/fundo-disign.jpg);
+    height: 100vh;
+}
+
+h4{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 55px 0px 0px 0px;
+}
+
+.orcamento{
+    color: rgb(255,220,37);
+    text-align: center;
+    padding: 25px;
+}
+
+input[type=range] {
+    -webkit-appearance: none; 
+    width: 30%; 
+    
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 15px;
+    cursor: pointer;
+    background: var(--cinza-principal);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 35px; 
+    width: 35px; 
+    border-radius: 50%; 
+    background: rgb(255,220,37); 
+    cursor: pointer;
+    margin-top: -10px; 
+}
+
+.escolha-seu-valor{
+    text-align: center;
+}
+
+.valores-quartos{
+    display: flex;
+    margin-left: 32%;
+}
+
+.quarto{
+    padding: 25px;
+    color: white;
+    font-size: 18px;
+}
