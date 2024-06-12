@@ -409,3 +409,115 @@ input[type=range]::-webkit-slider-thumb {
     margin-left: 35px;
     padding: 5px;
 }
+
+.contato{
+    height: 150vh;
+    width: 100%;
+    background-image: url(img/fundo-disign.jpg);
+}
+
+.contato{
+    text-align: center;
+}
+
+.titulo-contto{
+    color: white;  
+    font-size: 35px;
+    font-weight: 600;
+    padding: 75px 0px 15px 0px;
+}
+
+.descricao-contato{
+    text-align: center;
+    color: rgb(255,220,37);
+    font-size: 18px;
+}
+
+.consulta{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.img-contato-1{
+    cursor: pointer;
+    margin-top: 55px;
+    padding: 0px 0px 0px 60px;
+}
+
+.img-contato-2{
+    cursor: pointer;
+    margin-top: 55px;
+    padding: 0px 0px 20px 0px;
+}
+
+.img-contato-3{
+    cursor: pointer;
+    margin-top: 55px;
+    padding: 0px 50px 0px 0px;
+}
+
+
+
+.descricao-img{
+    display: flex;
+    width: 100%;
+}
+
+.descricao-img{
+    justify-content: space-between;
+    padding: 25px;
+    color: #aaa9a9;
+}
+
+.contato-email{
+    height: 200px;
+    width: 80%;
+    background-color: rgb(58, 58, 58);
+    margin-left: 10%;
+    margin-top: 65px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-input{
+   
+    display: flex;
+}
+
+.input-contato{
+    width: 200px;
+    height: 60px;
+    margin-top: 6%;
+    background-color: rgb(245,245,245);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.input-contato::placeholder{
+    font-size: 15px;
+    padding: 15px;
+}
+
+.btn-contato{
+    height: 60px;
+    margin-left: 55px;
+    width: 200px;
+    margin-top: 6%;
+    background-color: rgb(255,220,37);
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-contato:hover{
+    color: white;
+    background-color:var(--cinza-principal)
+}
+
+.call{
+    c
+}
